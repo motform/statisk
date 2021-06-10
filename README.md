@@ -13,12 +13,18 @@ Please not that _Statisk_ is still in an early, semi-active development. That sa
 
 ## Installation
 
+Add the latest SHA to your `deps.edn`:
+
+```clojure
+org.motform/statisk {:git/url "https://github.com/motform/statisk 
+                     :sha <latest-sha>}
+```
 
 ## Usage
 
 `motform.statisk.core` provides the primary API for re-building pages in a REPL environment. You could of course call it on the command line via `clj -X`, but that is not optimal unless you are doing a single build.
 
-There will be more instructions here later.
+(There will be more instructions here later.)
 
 ## Licence
 Copyright © 2021 [Love Lagerkvist](motform.org)
