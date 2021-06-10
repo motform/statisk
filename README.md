@@ -10,3 +10,8 @@ Statisk is completely dependency free.
 ## Installation
 
 ## Prior art
+
+## Licence
+Copyright © 2021 [Love Lagerkvist](motform.org)
+
+Distributed under the Eclipse Public License, the same as Clojure.
