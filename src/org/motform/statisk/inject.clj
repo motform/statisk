@@ -1,4 +1,4 @@
-(ns motform.statisk.inject
+(ns org.motform.statisk.inject
   "Injection functions for use under `:site/inject`. These are
   injected during pull and transform phases (should maybe be
   conditional?) and are expected to be side effecting only, i.e. not

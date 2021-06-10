@@ -1,4 +1,4 @@
-(ns motform.statisk.core
+(ns org.motform.statisk.core
   "Statisk is a very small static site generator that I wrote to make
   non-blog-like sites (portfolios). While primarily a fun/learning
   project, experience has shown me that the `.md` way of SSG proves a
@@ -13,13 +13,13 @@
   complexion is bound to fail and get tripped up somewhere (esp. in my
   experience of other SSGs).
 
-  `motform.statisk.core` provides the primary API for re-building pages
+  `org.motform.statisk.core` provides the primary API for re-building pages
   in a REPL environment. You could of course call it on the command
   line via clj -X, but that is not optimal unless you are doing a
   single build."
-  (:require [clojure.main       :refer [demunge]]
-            [clojure.string     :as str]
-            [motform.statisk.fs :as fs]))
+  (:require [clojure.main           :refer [demunge]]
+            [clojure.string         :as str]
+            [org.motform.statisk.fs :as fs]))
 
 (defn- comp-seq
   "Takes seq `v` of functions and returns the ordered composition."

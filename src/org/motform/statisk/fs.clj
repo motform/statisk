@@ -1,4 +1,4 @@
-(ns motform.statisk.fs
+(ns org.motform.statisk.fs
   "Various utility functions that abstract over `java.io`.
   Inspired by Raynes/fs.
   

@@ -1,4 +1,4 @@
-(ns motform.statisk.transform
+(ns org.motform.statisk.transform
   "Transforming functions for use under `:site/transform` during the
   first phase of`core/build-site!`. Transformation is executed sequentially
   and should return the site map.")

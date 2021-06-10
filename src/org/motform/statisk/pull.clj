@@ -1,8 +1,8 @@
-(ns motform.statisk.pull
+(ns org.motform.statisk.pull
   "Pulling functions for use under `:site/pull` during the first phase
   of`core/build-site!`. Pulling is executed sequentially and should
   return the site map."
-  (:require [motform.statisk.fs :as fs]))
+  (:require [org.motform.statisk.fs :as fs]))
 
 (defn- read-resource
   [{:resource/keys [file dir slug] :as resource}]

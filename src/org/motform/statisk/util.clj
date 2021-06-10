@@ -1,4 +1,4 @@
-(ns motform.statisk.util
+(ns org.motform.statisk.util
   "Utility functions."
   (:require [clojure.string :as str]))
 

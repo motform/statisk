@@ -1,8 +1,8 @@
-(ns motform.statisk.push
+(ns org.motform.statisk.push
   "Pushing functions for use under `:site/push` during the first phase
   of`core/build-site!`. Each push is executed 'endpoint', meaning
   that it should not return the site map."
-  (:require [motform.statisk.fs :as fs]))
+  (:require [org.motform.statisk.fs :as fs]))
 
 (defn write-pages!
   "NOTE: Expects the target directory to be conflict free."
